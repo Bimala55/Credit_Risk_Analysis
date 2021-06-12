@@ -54,3 +54,15 @@ which indicating high number of false positives.
   
    ![first image](/Resources/image6.PNG
    )
+
+# Summary:
+In this project,we try to find out the best models for detecting if a loan is high risk or not .Here, we evaluate all six machine learning models..Whereas the models which has the scores of the recall rate for high risk are:
+- SMOTEENN model.(69%)
+- Balanced Random Forest Classifier.(67%)
+- Easy Ensemble AdaBoost Classifier.(91%)
+
+Looking through the different models, the ones that scored the highest as the recall rate for low risk are:
+- Balanced Random Forest Classifier.(91%)
+- Easy Ensemble AdaBoost Classifier.(94%)
+
+ The model with the highest accuracy scores is Easy Ensemble Classify (92.5%) and a good balance of precision and recall scores. The model that I would recommend to use for predicting high risk loans is the Easy Ensemble Classifying model because Easy Ensemble had the best balance of all the models.
